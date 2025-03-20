@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_24644d91a30cb11a7ce3e45d35f52566 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_24644d91a30cb11a7ce3e45d35f52566" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_24644d91a30cb11a7ce3e45d35f52566 = L.map(
+                "map_24644d91a30cb11a7ce3e45d35f52566",
+                {
+                    center: [28.1248, -15.43],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e5c2ec687a1065e0723c1a68dd5d2530 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_24644d91a30cb11a7ce3e45d35f52566);
+        
+    
+            var marker_e09b6eb47f9d3dbe6b0e3e7aeff77ef7 = L.marker(
+                [28.1413136298267, -15.429994462238238],
+                {}
+            ).addTo(map_24644d91a30cb11a7ce3e45d35f52566);
+        
+    
+        var popup_4bcd21688ca7764195553fb7ed45fa4f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_07afc3ac20908419e4efd48b749a010b = $(`<div id="html_07afc3ac20908419e4efd48b749a010b" style="width: 100.0%; height: 100.0%;">     <b>Aparcamiento:</b> ELDER<br>     <b>Entradas:</b> 12779<br>     <b>Salidas:</b> 12860     </div>`)[0];
+                popup_4bcd21688ca7764195553fb7ed45fa4f.setContent(html_07afc3ac20908419e4efd48b749a010b);
+            
+        
+
+        marker_e09b6eb47f9d3dbe6b0e3e7aeff77ef7.bindPopup(popup_4bcd21688ca7764195553fb7ed45fa4f)
+        ;
+
+        
+    
+    
+            marker_e09b6eb47f9d3dbe6b0e3e7aeff77ef7.bindTooltip(
+                `<div>
+                     ELDER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1256b66a27a1a7533c2649f88083c854 = L.marker(
+                [28.107884401360366, -15.421643164224708],
+                {}
+            ).addTo(map_24644d91a30cb11a7ce3e45d35f52566);
+        
+    
+        var popup_81cc2307ccdf399faf21fa28a4a21fa3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_94ec6ce86ed085a614a0d7bbc1bec3bb = $(`<div id="html_94ec6ce86ed085a614a0d7bbc1bec3bb" style="width: 100.0%; height: 100.0%;">     <b>Aparcamiento:</b> MATA<br>     <b>Entradas:</b> 6838<br>     <b>Salidas:</b> 6846     </div>`)[0];
+                popup_81cc2307ccdf399faf21fa28a4a21fa3.setContent(html_94ec6ce86ed085a614a0d7bbc1bec3bb);
+            
+        
+
+        marker_1256b66a27a1a7533c2649f88083c854.bindPopup(popup_81cc2307ccdf399faf21fa28a4a21fa3)
+        ;
+
+        
+    
+    
+            marker_1256b66a27a1a7533c2649f88083c854.bindTooltip(
+                `<div>
+                     MATA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c99e8aa5be99fa518eb49235bdf405f = L.marker(
+                [28.12445152742904, -15.428219517110417],
+                {}
+            ).addTo(map_24644d91a30cb11a7ce3e45d35f52566);
+        
+    
+        var popup_28844ba3894be6bdb4864fd0e3dc396e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5daec111ef60ec7946d2716da8586e93 = $(`<div id="html_5daec111ef60ec7946d2716da8586e93" style="width: 100.0%; height: 100.0%;">     <b>Aparcamiento:</b> METROPOL<br>     <b>Entradas:</b> 16978<br>     <b>Salidas:</b> 16984     </div>`)[0];
+                popup_28844ba3894be6bdb4864fd0e3dc396e.setContent(html_5daec111ef60ec7946d2716da8586e93);
+            
+        
+
+        marker_2c99e8aa5be99fa518eb49235bdf405f.bindPopup(popup_28844ba3894be6bdb4864fd0e3dc396e)
+        ;
+
+        
+    
+    
+            marker_2c99e8aa5be99fa518eb49235bdf405f.bindTooltip(
+                `<div>
+                     METROPOL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e11e0e7e4dde5aae5d82b3d55eedac13 = L.marker(
+                [28.09599206803251, -15.415165449724524],
+                {}
+            ).addTo(map_24644d91a30cb11a7ce3e45d35f52566);
+        
+    
+        var popup_4225413b7c7ea159bbe94112f9cab97c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3a1ae7cc00cb81de41d9d4406ea21eb8 = $(`<div id="html_3a1ae7cc00cb81de41d9d4406ea21eb8" style="width: 100.0%; height: 100.0%;">     <b>Aparcamiento:</b> NUEVOS JUZGADOS<br>     <b>Entradas:</b> 12469<br>     <b>Salidas:</b> 12469     </div>`)[0];
+                popup_4225413b7c7ea159bbe94112f9cab97c.setContent(html_3a1ae7cc00cb81de41d9d4406ea21eb8);
+            
+        
+
+        marker_e11e0e7e4dde5aae5d82b3d55eedac13.bindPopup(popup_4225413b7c7ea159bbe94112f9cab97c)
+        ;
+
+        
+    
+    
+            marker_e11e0e7e4dde5aae5d82b3d55eedac13.bindTooltip(
+                `<div>
+                     NUEVOS JUZGADOS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee073f5018dd3ca1ab8e21b385a4e748 = L.marker(
+                [28.128456520332747, -15.451386410554496],
+                {}
+            ).addTo(map_24644d91a30cb11a7ce3e45d35f52566);
+        
+    
+        var popup_ac87e52e892af40bc49f6f83e180b7b7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c22daa9c49b5cd1fd47bad5b82e919b3 = $(`<div id="html_c22daa9c49b5cd1fd47bad5b82e919b3" style="width: 100.0%; height: 100.0%;">     <b>Aparcamiento:</b> RINCÓN<br>     <b>Entradas:</b> 37431<br>     <b>Salidas:</b> 37544     </div>`)[0];
+                popup_ac87e52e892af40bc49f6f83e180b7b7.setContent(html_c22daa9c49b5cd1fd47bad5b82e919b3);
+            
+        
+
+        marker_ee073f5018dd3ca1ab8e21b385a4e748.bindPopup(popup_ac87e52e892af40bc49f6f83e180b7b7)
+        ;
+
+        
+    
+    
+            marker_ee073f5018dd3ca1ab8e21b385a4e748.bindTooltip(
+                `<div>
+                     RINCÓN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ab8c834d5428da9893ccb1369679b47 = L.marker(
+                [28.104971887363224, -15.419031581531359],
+                {}
+            ).addTo(map_24644d91a30cb11a7ce3e45d35f52566);
+        
+    
+        var popup_ed72865c05f8d2c9eeca735afa06ae6c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b2eb96db05a811ece5044d7a19816a83 = $(`<div id="html_b2eb96db05a811ece5044d7a19816a83" style="width: 100.0%; height: 100.0%;">     <b>Aparcamiento:</b> SAN BERNARDO<br>     <b>Entradas:</b> 26960<br>     <b>Salidas:</b> 27041     </div>`)[0];
+                popup_ed72865c05f8d2c9eeca735afa06ae6c.setContent(html_b2eb96db05a811ece5044d7a19816a83);
+            
+        
+
+        marker_9ab8c834d5428da9893ccb1369679b47.bindPopup(popup_ed72865c05f8d2c9eeca735afa06ae6c)
+        ;
+
+        
+    
+    
+            marker_9ab8c834d5428da9893ccb1369679b47.bindTooltip(
+                `<div>
+                     SAN BERNARDO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9342936bc311d7b2beac79695232793 = L.marker(
+                [28.145509226902533, -15.42847475140383],
+                {}
+            ).addTo(map_24644d91a30cb11a7ce3e45d35f52566);
+        
+    
+        var popup_a896ecb344e9a8a2c39e422be1034622 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9a23cee10797be049db93f611ef26397 = $(`<div id="html_9a23cee10797be049db93f611ef26397" style="width: 100.0%; height: 100.0%;">     <b>Aparcamiento:</b> SANAPÚ<br>     <b>Entradas:</b> 13070<br>     <b>Salidas:</b> 13213     </div>`)[0];
+                popup_a896ecb344e9a8a2c39e422be1034622.setContent(html_9a23cee10797be049db93f611ef26397);
+            
+        
+
+        marker_e9342936bc311d7b2beac79695232793.bindPopup(popup_a896ecb344e9a8a2c39e422be1034622)
+        ;
+
+        
+    
+    
+            marker_e9342936bc311d7b2beac79695232793.bindTooltip(
+                `<div>
+                     SANAPÚ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da007c298b1b9635a43b273b8817ca95 = L.marker(
+                [28.102732314400676, -15.412816498162709],
+                {}
+            ).addTo(map_24644d91a30cb11a7ce3e45d35f52566);
+        
+    
+        var popup_d6df1596023c11c453552bd180df53c8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e16e445022411fdac6b2a148e642301d = $(`<div id="html_e16e445022411fdac6b2a148e642301d" style="width: 100.0%; height: 100.0%;">     <b>Aparcamiento:</b> VEGUETA<br>     <b>Entradas:</b> 30711<br>     <b>Salidas:</b> 30772     </div>`)[0];
+                popup_d6df1596023c11c453552bd180df53c8.setContent(html_e16e445022411fdac6b2a148e642301d);
+            
+        
+
+        marker_da007c298b1b9635a43b273b8817ca95.bindPopup(popup_d6df1596023c11c453552bd180df53c8)
+        ;
+
+        
+    
+    
+            marker_da007c298b1b9635a43b273b8817ca95.bindTooltip(
+                `<div>
+                     VEGUETA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
